@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ===============================
+  Custom Styles
+  ===============================
+*/
+
+body {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid,
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.col-1-3 {
+  width: 26%;
+}
+.col-2-3 {
+  width: 70%;
+}
+
+
+.col-1-3, 
+.col-2-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.primary-header {
+  padding-top: 10px;
+  text-align: center;
+  border-bottom: solid 2px;
+}
+.logo {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-nav {
+  padding-bottom: 20px;
+
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+  font-size: 30px;
+}
+
+.nav a {
+  display: inline;
+  margin: auto 15px auto 15px;
+}
+
+/*
+  ========================================
+  Content
+  ========================================
+*/
+
+.article-content {
+  border-top: 2px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+}
+
+.article-content h2 {
+  font-size: 30px;
+}
+
+.entry-wrapper {
+  clear: both;
+  padding: 10px;
+  border-bottom: 2px solid;
+  margin-bottom: 5px;
+}
+.entry-title {
+  float: left;
+}
+.entry-date {
+  float: left;
+  padding-left: 20px;
+  color: #959D9D;
+}
+
+/*
+  ========================================
+  Sidebar
+  ========================================
+*/
+
+.sidebar {
+  text-align: center;
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer {
+  text-align: center;
+}
+
+.footer-nav {
+  border-top: 2px solid;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
